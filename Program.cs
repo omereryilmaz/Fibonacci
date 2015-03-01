@@ -19,7 +19,7 @@ namespace Fibonacci
             if (secim==1)
             {
                 ilkZaman = DateTime.Now;
-                for (int i = 0; i <= 80; i=i+10)
+                for (int i = 0; i <= 80; i=i+1)
                 {
                     Console.WriteLine(i +".Fibonacci sayisi");
                     Console.WriteLine("Degeri : " + fiborecusive(i));
